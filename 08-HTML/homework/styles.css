@@ -13,7 +13,7 @@ h1, h3, h4, span, a, li, ul {
 }
 
 h1 {
-    color: fuchsia;
+    color: silver;
     background-color: slategray;
 }
 
@@ -26,7 +26,7 @@ img {
     padding:  50px;
     height: 600px;
     width: 500px;
-    background-color: maroon;
+    background-color: chocolate;
     margin-left: auto;
     margin-right: auto;
 }
