@@ -1,3 +1,8 @@
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 body {
     background-image: url(./147365_1280_1024.jpg);
     text-align: center;
@@ -8,13 +13,15 @@ html{
     margin: 5px;
     height: 700px;
 }
-h1, h3, h4, span, a, li, ul {
+.divClass {
     color: snow;
 }
 
 h1 {
     color: silver;
     background-color: slategray;
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 img {
@@ -22,20 +29,25 @@ img {
 }
 
 #thirdDiv {
-    border: 5px dotted black;
+    border: 3px solid black;
     padding:  50px;
     height: 600px;
     width: 500px;
     background-color: chocolate;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
 }
 
 #spanId {
     font-size: 18px;
     margin: 50px;
+    justify-content: center;
 }
 
-div {
-    text-align: center;
+.divClass #thirdDiv {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-aling-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
 }
